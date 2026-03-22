@@ -20,22 +20,36 @@
         <div id="llm">
             <ul>
                 <li><a calss="active" herf="#home">主页</a></li>
+                <li><a class="message" herf="#message">通知</a></li>
             </ul>
         </div>
 
         <div id="container" style="width: 500px;"></div>
-        <div id="menu" style="background-color: chocolate;height: 1400px;width: 100px;float: left;">
-                    <b>导航板块</b><br/>
+        <div id="menu" style="background-color: chocolate; height: 125%;width: 5%;float: left;"></div>
+        
+
+       <!-- ========= 新增右侧空白分区 ========= -->
+        <div class="right-blank-area">
+            <div class="right-text">
+                空白分区<br/>
+                （预留区域）<br/><br/>
+                后续可添加<br/>
+                宣传内容或通知
+            </div>
         </div>
-        
-        
+        <!-- ================================= -->
+
+
+
+
+        <div class="left">
         <a href="https://baike.baidu.com/item/FOCUS%E5%9B%A2%E9%98%9F/3504682" target="_blank">FOCUS团队简介</a>
         <br/><br/>
         <img src="./images/1.png" title="FOCUS招新图片" width="500" height="300">
         <br/><br/>
         
         
-        <p ><strong> FOCUS2026年春招共分为四个方向</strong>
+        <p class="pp"><strong> FOCUS2026年春招共分为四个方向</strong>
             <div id="ull">
             <ul type="circle">
                 <li><i>机械机构设计</i></li>
@@ -44,6 +58,14 @@
                 <li><i>产品经理</i></li>
             </ul></div>
         </p>
+
+        <div class="ps">
+        <p>
+            <ul>
+            温馨提示:<br>
+            笔试为项目制,参加笔试的同学需要在7天时间内选择自己感兴趣的项目并完成,将结果上传给相应负责人。
+            </ul>
+        </p>    
         </div>
 
 
@@ -90,17 +112,18 @@
             <input type="submit" value="验证" /><br/><br/>
            
         </form>
+    </div>
 
     <div id="footer" style="background-color:antiquewhite;clear: both;text-align: center;font-size: large;">
         开发者:FOCUS团队 </div>
 
     <button type="button" onclick="alert('欢迎热爱科创的你!')">点我有惊喜</button>
 
-    <div id="scriptl">
-    <script>
+    
+    <script class="sc">
         document.write("感谢您参与本次FCOCUS招新!")
        
-    </script></div>
+    </script>
 
     </body>
 </html>
