@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="LY" content="width=device-width, initial-scale=1.0">
+        <title>FOCUS招新网页</title>
+        <link rel="stylesheet"  href="{{ url_for('static',filename = 'css/test.css')}}">
+
+        <style>
+            /* 自定义CSS */
+            /*h1{font-size: 40px;color: aquamarine;}*/
+            p{background-color: azure;font-family: Arial, Helvetica, sans-serif;}
+        </style>
+
+    </head>
+
+    <body>
+        <!-- 这是一个注释 -->
+        <h1 style="text-align: center;">FOCUS招新网页</h1>
+
+        <div id="menu" style="background-color: chocolate; height: 125%;width: 5%;float: left;"></div>
+
+
+            <ul class="top">
+                <li><a  herf="#home">主页</a></li>
+                <li><a  herf="#message">通知</a></li>
+            </ul>
+
+
+        <div id="container" style="width: 500px;"></div>
+
+
+
+       <!-- ========= 新增右侧空白分区 ========= -->
+        <div class="right-blank-area">
+            <div class="right-text">
+                空白分区<br/>
+                （预留区域）<br/><br/>
+                后续可添加<br/>
+                宣传内容或通知
+            </div>
+        </div>
+        <!-- ================================= -->
+
+
+
+
+        <div class="left">
+        <a href="https://baike.baidu.com/item/FOCUS%E5%9B%A2%E9%98%9F/3504682" target="_blank">FOCUS团队简介</a>
+        <br/><br/>
+        <img src="../static/images/1.png" title="FOCUS招新图片" width="500" height="300">
+        <br/><br/>
+
+
+        <p class="pp"><strong> FOCUS2026年春招共分为四个方向</strong>
+            <div id="ull">
+            <ul type="circle">
+                <li><i>机械机构设计</i></li>
+                <li><i>电路硬件</i></li>
+                <li><i>嵌入式与算法</i></li>
+                <li><i>产品经理</i></li>
+            </ul></div>
+        </p>
+
+        <div class="ps">
+        <p>
+            <ul>
+            温馨提示:<br>
+            笔试为项目制,参加笔试的同学需要在7天时间内选择自己感兴趣的项目并完成,将结果上传给相应负责人。
+            </ul>
+        </p>
+        </div>
+
+
+
+
+        <table  border="1" width="500" cellspacing="20" cellpadding="5" >
+            <caption><strong>FOCUS招新表格</strong></caption>
+            <thead>
+                <tr>
+                    <th>姓名</th>
+                    <th>年龄</th>
+                    <th>性别</th>
+                    <th>专业班级</th>
+                </tr>
+            </thead>
+
+            <tr>
+                <td><br/></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><br/></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+        </table>
+
+
+        <br/><br/>
+
+        <h2 style="color: blueviolet;">FOCUS学生验证</h2>
+        <hr><br/>
+        <form action="https://baike.baidu.com/item/FOCUS%E5%9B%A2%E9%98%9F/3504682" method="post">
+            账号<input type="text" name="wd" /><br/><br/>
+            密码<input type="password" name="pwd" /><br/><br/>
+            <input type="radio" name="sex" value="male">男<br/>
+            <input type="radio" name="sex" value="female">女<br/>
+            日期:<input type="date" name="pic" /><br/><br/>
+            <input type="submit" value="验证" /><br/><br/>
+
+        </form>
+    </div>
+
+    <div id="footer" style="background-color:antiquewhite;clear: both;text-align: center;font-size: large;">
+        开发者:FOCUS团队 </div>
+
+    <button type="button" onclick="alert('欢迎热爱科创的你!')">点我有惊喜</button>
+
+
+    <script class="sc">
+        document.write("感谢您参与本次FCOCUS招新!")
+
+    </script>
+
+    </body>
+</html>
