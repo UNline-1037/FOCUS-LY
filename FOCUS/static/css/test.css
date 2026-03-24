@@ -71,6 +71,38 @@ table{
                 color: #aaa;
                 font-size: 16px;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                background: url(../images/logo.jpg) right top no-repeat;
-                display:block;
+                background: url(../images/logo.jpg) right bottom no-repeat;
+                display:flex;
             }
+.markin{
+    display:flex;flex-direction: column;
+    padding:10px 15px;
+    border:2px  dashed #cccccc;
+    width: 40%;
+    margin-top: 5px;
+    border-radius: 6px;
+    }
+
+.markin-left textarea{
+
+
+    width: 80%;
+    height:200px;
+    border:none;
+    font-family:monospace;
+    font-size:14px;
+}
+
+.markout{
+    display:flex;
+    padding:10px 15px;
+    border:2px  dashed #cccccc;
+    width: 40%;
+    margin-top: 5px;
+    border-radius: 6px;
+    }
+
+#left #right{
+height:800px;
+overflow-y:auto;
+}

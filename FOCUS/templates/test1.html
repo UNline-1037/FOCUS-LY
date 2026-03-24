@@ -5,6 +5,8 @@
         <meta name="LY" content="width=device-width, initial-scale=1.0">
         <title>FOCUS招新网页</title>
         <link rel="stylesheet"  href="{{ url_for('static',filename = 'css/test.css')}}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css">
 
         <style>
             /* 自定义CSS */
@@ -38,6 +40,24 @@
                 （预留区域）<br/><br/>
                 后续可添加<br/>
                 宣传内容或通知
+            </div>
+            <div class="markin">
+                <div class="markin-top">
+                    <h1 style="font-size:25px">MARKDOWN文本输入框</h1></div>
+                <div class="markin-left" id="left">
+                    <textarea id="input" placeholder="请输入文本">
+
+                    </textarea>
+                </div>
+            </div>
+            <div class="markout">
+                <div class="markout-top">
+                    <h1 style="font-size:25px">MARKDOWN文本输出框</h1>
+                <div class="markout-right" id="right">
+
+                </div>
+                </div>
+
             </div>
         </div>
         <!-- ================================= -->
@@ -127,6 +147,9 @@
         document.write("感谢您参与本次FCOCUS招新!")
 
     </script>
-
+    <script src="{{ url_for('static',filename = 'script.js')}}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js"></script>
     </body>
 </html>
